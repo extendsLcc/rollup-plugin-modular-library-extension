@@ -1,0 +1,16 @@
+{
+  "name": "rollup-plugin-modular-library-extension",
+  "version": "0.0.1",
+  "description": "allow otimize path of auto generated chunks when using rollup-plugin-modular-library",
+  "main": "index.js",
+  "author": "extendslcc",
+  "license": "MIT",
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^11.2.0",
+    "rollup": "^2.40.0",
+    "rollup-plugin-multi-input": "^1.2.0"
+  },
+  "scripts": {
+    "rollup": "rollup -c"
+  }
+}
